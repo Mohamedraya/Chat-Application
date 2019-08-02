@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".list_user_Activity">
+
+    <ListView
+        android:id="@+id/lst_users"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp">
+
+        <Button
+            android:id="@+id/btn_createchat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create chat"
+            android:layout_alignParentBottom = "true"/>
+
+    </ListView>
+
+</RelativeLayout>
